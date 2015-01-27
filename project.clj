@@ -4,5 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [enlive "1.1.5"]]
+                 [enlive "1.1.5"]
+                 [vision "1.0.0-SNAPSHOT"]]
+  :jvm-opts ["-Djna.library.path=../vision/resources/lib"]
   :main spidey.core)
